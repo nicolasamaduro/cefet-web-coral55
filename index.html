@@ -1,52 +1,77 @@
 ﻿<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Lanchonete do Coral 55</title>
-  <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
-  <!-- substitua os elementos não semânticos por elementos semânticos -->
-  <div id="recipiente">
-    <div id="cabecalho">
-      <h1>Lanchonete do Coral 55</h1>
-      <h2>O melhor açaí marítimo da região</h2>
+  <head>
+    <meta charset="utf-8">
+    <title>Lanchonete do Coral 55</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <script src="js/bubbles.js"></script>  
+    <!-- substitua os elementos não semânticos por elementos semânticos -->
+    <div id="recipiente">
+      <header>
+        <h1>Lanchonete do Coral 55</h1>
+        <h2>O melhor <em>açaí</em> marítimo da região</h2>
+      </header>
+      <article>
+        <section id="lateral">
+          <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
+          <h2>Cardápio</h2>
+          <img src="images/bolhas.png" alt="Bolhas de ar">
+          <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
+            coquetel de algas">
+        </section>
+        <main >
+          <h3>Salgados</h3>
+          <!--
+            encontre uma forma para dispor os itens do cardápio com seus
+            nomes à esquerda e os preços à direita
+          -->
+          <div>
+            <span>Pão de queijo de égua marinha</span> <span class="preco">$ 0,99</span>
+          </div>
+          <div>
+            <span>Hamburguer de microinsetos com salada de algas ou de musgo </span> <span class="preco">$ 2,49</span>
+          </div>
+          <h3>Pratos</h3>
+          <div>
+            <span>Açaí do manguezal 500ml</span> <span class="preco">$ 4,99</span>
+          </div>
+          <div>
+            <span></span>Açaí marítimo (assinatura) 500ml<span class="preco">$ 6,99</span>
+          </div>
+          <div>
+              <span>Algas verdes fritas</span> <span class="preco"> $ 7,49</span>
+          </div>
+          <div>
+              <span>Plâncton ao molho de maracujá </span> <span class="preco">$ 12,49</span>
+          </div>
+          <div>
+              <span>Plâncton do pacífico (importado) marinado </span> <span class="preco">$ 19,99</span>
+          </div>              
+          
+          <h3>Bebes</h3>
+          <div>
+              <span>Água temperada </span> <span class="preco">(cortesia)</span>
+          </div>
+          <div>
+              <span></span>  Água doce importada (copo)  <span class="preco">$ 29,49</span>
+          </div>
+          <div>
+              <span></span>  Coquetel de algas (alcoólico)<span class="preco"> $ 8,99</span>
+          </div>
+          <div>
+              <span></span> Coquetel de algas (kids) <span class="preco">$ 5,49</span>
+          </div>
+          
+        </main>
+      </article>
+      <footer>
+        <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
+      </footer>
     </div>
-    <div id="conteudo">
-      <div id="lateral">
-        <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
-        <h2>Cardápio</h2>
-        <img src="images/bolhas.png" alt="Bolhas de ar">
-        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
-          coquetel de algas">
-      </div>
-      <div id="cardapio">
-        <h3>Salgados</h3>
-        <!--
-          encontre uma forma para dispor os itens do cardápio com seus
-          nomes à esquerda e os preços à direita
-        -->
-        Pão de queijo de égua marinha $ 0,99
-        Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49
-        <h3>Pratos</h3>
-        Açaí do manguezal 500ml $ 4,99
-        Açaí marítimo (assinatura) 500ml $ 6,99
-        Algas verdes fritas $ 7,49
-        Plâncton ao molho de maracujá $ 12,49
-        Plâncton do pacífico (importado) marinado $ 19,99
-        <h3>Bebes</h3>
-        Água temperada (cortesia)
-        Água doce importada (copo) $ 29,49
-        Coquetel de algas (alcoólico) $ 8,99
-        Coquetel de algas (kids) $ 5,49
-      </div>
-    </div>
-    <div id="rodape">
-      <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
-    </div>
-  </div>
-  <div id="ticket">
-    <img src="images/ticket.png" alt="Cupom de desconto">
-  </div>
-</body>
+    <aside id="ticket">
+      <img src="images/ticket.png" alt="Cupom de desconto">
+    </aside>
+  </body>
 </html>
